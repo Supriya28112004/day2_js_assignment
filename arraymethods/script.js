@@ -119,7 +119,7 @@ console.log(productNames);
 ]*/
 
 
-//Medium -3//
+//Medium -2//
 const arrayofStrings=products.map((value1)=>
 {
     return `${value1.name} ${value1.price}`;

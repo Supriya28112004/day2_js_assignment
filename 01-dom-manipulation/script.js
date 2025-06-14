@@ -2,7 +2,7 @@
 document.getElementById("main-heading").innerText="My Awesome Shop"
 
 //Easy-2//
-
+/*
 document.getElementsByClassName("tagline")[0].innerHTML="Find the <strong>best</strong> products here!"
 
 //Easy -3//
@@ -34,14 +34,10 @@ const para1=document.createElement("p")
 para1.textContent="Email: contact@awesomeshop.com";
 const para2=document.createElement("p");
 para2.textContent= "Phone: 123-456-7890";
-
 divele.appendChild(para1);
 divele.appendChild(para2);
-
-
-
 const footer = document.querySelector('footer');
 document.body.insertBefore(divele, footer);
-
+*/
 
 
