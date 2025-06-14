@@ -19,7 +19,6 @@ productlist.innerHTML=prods.join('');
 
 
 // Medium //
-/*
 
 const productlist1 = document.getElementById("product-list");
 const prods1 = products.filter(value => value.inStock);
@@ -74,6 +73,6 @@ const productList = document.getElementById("product-list");
 
   document.getElementById("app-container").appendChild(totalDiv);
 
-*/
+
 
     
