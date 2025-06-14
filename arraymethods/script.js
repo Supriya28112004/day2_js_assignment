@@ -7,6 +7,7 @@ const products = [
     { id: 5, name: "To Kill a Mockingbird", category: "Books", price: 12, inStock: false },
     { id: 6, name: "Smart Watch", category: "Electronics", price: 250, inStock: true },
 ];
+//easy1//
 const inStockProducts=products.filter((value)=>
 {
     return value.inStock===true;
@@ -75,30 +76,6 @@ console.log(bookProducts);
     inStock: false
   }
 ]*/
-
-
-
-/*Output
-
-[
-  {
-    id: 3,
-    name: 'The Great Gatsby',
-    category: 'Books',
-    price: 15,
-    inStock: true
-  },
-  {
-    id: 5,
-    name: 'To Kill a Mockingbird',
-    category: 'Books',
-    price: 12,
-    inStock: false
-  }
-]*/
-
-
-
 //Medium -1//
 
 const productNames=products.map((names=>
